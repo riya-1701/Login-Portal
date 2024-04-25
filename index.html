@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <style>
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+        *{
+            margin: 0%;
+            padding: 0%
+        }
+        body{
+            background-image: url(background.jpg);
+            background-size: 100% 670px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        .container{
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            margin-left: 36%;
+            margin-top: 7%;
+            color: white;
+            background-color: black;
+        }
+        .container h1{
+            font-size: 36px;
+            color: aqua;
+        }
+        .container .text{
+            position: relative;
+            top: 7%;
+        }
+        .input1{
+            border: none;
+            background-color: black;
+            border-bottom: 2px solid white;
+            width: 250px;
+            font-size: 20px;
+            margin-top: 40px;
+            outline: none;
+            color: white;
+        }
+        .form-box button{
+            width: 250px;
+            height: 44px;
+            background-color: aqua;
+            color: black;
+            border: none;
+            font-size: 24px;
+            border-radius: 25px;
+            margin-top: 20px;
+            cursor: pointer;
+            
+        }
+        button:hover{
+            border: 3px solid aqua;
+            background-color: black;
+            color: white;
+        }
+        p{
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        p span{
+            color: aqua;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Login</h1>
+            <form>
+                <!-- <label for='Username'><b>Username</b> <input type="text" id="Username" placeholder="Enter Username"></label> -->
+                <input  class="input1" type="text" placeholder="Enter Username">
+                <br>
+                <!-- <label for="Password"><b>Password</b></label> -->
+                <input  class="input1" type="password" placeholder="Enter Password">
+                <p><b>Forgot Password?</b></p>
+                <button>Login</button>
+                <p>Not a member? <span>Sign Up</span></p>
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
